@@ -1,0 +1,75 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+    margin-block-start: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 90%;
+    background-color: beige;
+    padding: 20px;
+    margin: 20px;  
+}
+
+.div__container {
+    width: 80%;
+    background-color: beige;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.div__firstHover a:hover {
+    padding: 3px;
+    background-color: red;
+    box-shadow: 5px 5px 10px pink;
+}
+
+.master:hover {
+    display: inline;
+    background-color: red;
+    box-shadow: 5px 5px 10px pink;
+}
+
+.div__firstChild p:first-child {
+    display: inline;
+    background-color: red;
+    box-shadow: 5px 5px 10px pink;
+}
+
+.div__input input:focus {
+    background-color: red;
+    box-shadow: 5px 5px 10px pink;
+}
+
+.div__firstLine ::first-line {
+    background-color: red;
+    box-shadow: 5px 5px 10px pink;    
+}
+
+.div__firstLetter ::first-letter {
+    background-color: red;
+    box-shadow: 5px 5px 10px pink;    
+}
+
+.div__beforeAfter {
+    padding-bottom: 35%;
+}
+
+.div__beforeAfter::before {
+    content: url(/assets/aAD6hRW.gif);
+}
+
+.div__beforeAfter::after {
+    content: url(/assets/dev2.gif);
+    position: absolute;
+    width: 50%;
+    height: 0%;
+    transform: scale(0.3);
+}
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EzequielDas CSS Pseudoclases</title>
+</head>
+<body>
+<!-- I. Establezca el color de fondo en rojo cuando pase el mouse sobre un enlace. -->
+<div class="container">
+    <div class="div__container div__firstHover">
+        <h1>This is a header.</h1>
+        <p>This is a paragraph.</p>
+        <a href="https://larnu.app/#/">This is a link.</a>
+    </div>
+  
+
+<!-- II. Establezca el color de fondo en rojo, cuando pase el mouse sobre elementos con la clase "maestro". -->
+
+   <div class="div__container div__secondHover">
+        <h1 class="master">Header with red hover</h1>
+        <p class="master">paragraph with red hover</p>
+        <p>This is a paragraph.</p>
+   </div>
+
+<!-- III. Establezca el color de fondo en rojo, de cualquier elemento <p> que sea el primer hijo de cualquier elemento.-->
+
+   <div class="div__container div__firstChild">
+        <p>I'm a first chid.</p>
+        <p>This is a paragraph.</p>
+        <p>I'm a last child.</p>
+   </div>
+
+ <!-- VI. Establezca el color de fondo en rojo, de cualquier elemento <input> que esté enfocado. -->
+   
+  <div class="div__container div__input"> 
+    <form>
+      Name: <input type="text" name="fname"><br>
+      Age: <input type="text" name="age">
+    </form>
+  </div>
+
+<!-- V. Establezca el color de fondo en rojo, de la primera línea del párrafo. -->
+   
+<div class="div__container div__firstLine">
+  <p class="intro">
+    In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since. 'Whenever you feel like criticizing anyone,' he told me, 'just remember that all the people in this world haven't had the advantages that you've had.'
+  </p>
+</div>
+   
+<!-- VI. Establezca el color de fondo en rojo, para la primera letra del elemento <p>. -->
+   
+<div class="div__container div__firstLetter">
+  <p class="intro">
+    In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since. 'Whenever you feel like criticizing anyone,' he told me, 'just remember that all the people in this world haven't had the advantages that you've had.'
+  </p>
+</div>
+
+<!-- VII. Inserte la imagen "smiley.gif" antes y después de cualquier elemento <p>, utilizando los pseudoelementos ::before y ::after. -->
+
+   <div class="div__container div__beforeAfter">
+        <p>Content before.</p>
+        <p>Content after.</p>
+   </div>
+
+    </div>
+  </body>
+</html>
